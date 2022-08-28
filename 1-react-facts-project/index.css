@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+  background-color: #282D35;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  height: 90px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  width: 25px;
+  margin: 0px 7px 0px 25px;
+}
+
+.logo > h3 {
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.course-module > h4{
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 16px;
+  align-items: right;
+  line-height: 20px;
+  margin-right: 27px;
+}
+
+main {
+  background-image: url('./images/reactjs-icon 2.png');
+  background-repeat: no-repeat;
+  background-position: 100% 150%;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin-left: 27px;
+  margin-top: 57px;
+}
+
+.fact-list {
+  color: #FFFFFF;
+  margin-left: 57px;
+  font-size: 16px;
+  max-width: 390px;
+  padding: 0px 18px;
+}
+
+.fact-list > li {
+  padding: 6px 0px;
+}
+
+.fact-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
+}

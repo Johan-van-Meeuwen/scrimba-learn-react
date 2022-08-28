@@ -1,0 +1,7 @@
+.container {
+  background-color: #23252C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 44px;
+}
