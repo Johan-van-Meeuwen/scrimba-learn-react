@@ -7,6 +7,11 @@ body {
   font-family: 'Inter', 'sans-serif';
 }
 
+.container {
+  width: 550px;
+  margin: 0 auto;
+}
+
 nav {
   background-color: #F55A5A;
   color: #FFFFFF;
