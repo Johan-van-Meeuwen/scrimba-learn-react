@@ -3,13 +3,23 @@ import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Card from './components/Card.jsx'
+import airbnbData from './data.js'
 
 function App() {
+  const experiences = airbnbData.map((experience) => {
+    return <Card
+      key={experience.id}
+      {...experience}
+    />
+  })
+
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
-      <Card /> */}
+      <section className='cards--list'>
+        {experiences}
+      </section>
     </div>
   )
 }
