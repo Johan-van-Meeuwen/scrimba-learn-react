@@ -1,7 +1,6 @@
 import React from "react"
 
 export default function Card(props) {
-  console.log(props)
   let badgeText
   if (props.openSpots === 0) {
     badgeText = "SOLD OUT"
