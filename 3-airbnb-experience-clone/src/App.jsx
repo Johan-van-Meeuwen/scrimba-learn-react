@@ -25,3 +25,11 @@ function App() {
 }
 
 export default App
+
+const person = {
+  firstName: "Johan",
+  lastName: "van Meeuwen"
+}
+
+const {firstName, lastName} = person
+console.log(lastName, firstName)
